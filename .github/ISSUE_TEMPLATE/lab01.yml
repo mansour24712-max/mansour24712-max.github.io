@@ -1,0 +1,248 @@
+name: "LAB01 — La mia identità tecnica su GitHub"
+description: "Apri la tua scheda di lavoro: usa le checkbox per l'avanzamento e i commenti per le evidenze."
+title: "LAB01 - "
+labels:
+  - "lab01"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # La tua scheda di lavoro LAB01
+
+        Questa Issue è la **scheda di avanzamento** del laboratorio.
+
+        Per ogni missione segui il ciclo:
+        **Leggi → Fai → Controlla → Spunta → Commenta → Continua.**
+
+        - **Spunta** le checkbox solo dopo aver completato davvero l'attività.
+        - **Aggiungi un commento** all'Issue con l'evidenza richiesta per quella missione.
+        - Non modificare il corpo dell'Issue per inserire le evidenze: usa i commenti, così rimane una cronologia del lavoro.
+
+        > 🛑 CHECKPOINT: se il risultato non corrisponde a quanto indicato, fermati e chiedi aiuto con le 3P.
+
+  - type: checkboxes
+    id: missione_1
+    attributes:
+      label: "Missione 1 — Controlla il tuo profilo"
+      description: "Apri Your profile e controlla username e indirizzo."
+      options:
+        - label: "Ho aperto Your profile e controllato il mio username."
+        - label: "Ho copiato il link del mio profilo."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 1 — da aggiungere come commento:**
+        ```text
+        Missione 1 completata
+        Profilo GitHub: https://github.com/tuo-username
+        ```
+
+  - type: checkboxes
+    id: missione_2
+    attributes:
+      label: "Missione 2 — Repository speciale del profilo"
+      description: "Crea un repository pubblico con lo stesso nome del tuo username e con README.md."
+      options:
+        - label: "Ho creato il repository username/username come Public."
+        - label: "Ho verificato che nel repository ci sia README.md."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 2 — da aggiungere come commento:**
+        ```text
+        Missione 2 completata
+        Repository del profilo: https://github.com/tuo-username/tuo-username
+        ```
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Missione 3 — Costruisci il Profile README
+
+        Copia e personalizza questo testo nel `README.md` del tuo repository speciale. Non inventare competenze: è corretto dire che sei all'inizio del percorso.
+
+        ```markdown
+        # Ciao! 👋
+
+        Sono uno studente di Informatica e questo è l'inizio
+        del mio portfolio tecnico.
+
+        ## 👤 Qualcosa su di me
+        ...
+
+        ## ❤️ Le mie passioni
+        - ...
+        - ...
+        - ...
+
+        ## 💻 Tecnologia ed esperienze
+        Ho già avuto occasione di utilizzare o conoscere:
+        - ...
+        - ...
+        - ...
+
+        ## 🧠 Una cosa che potrei insegnare ai miei compagni
+        ...
+
+        ## 🔍 Cosa mi piacerebbe imparare
+        ...
+
+        ## 🚀 Un progetto che mi piacerebbe realizzare
+        ...
+
+        ## 🎯 Guardando al futuro
+        ...
+        ```
+
+        Per oggi considera **Commit changes** come “Conferma questa modifica”.
+
+  - type: checkboxes
+    id: missione_3
+    attributes:
+      label: "Missione 3 — Profile README"
+      options:
+        - label: "Ho personalizzato il README senza inserire informazioni riservate."
+        - label: "Ho controllato l'anteprima e ho confermato la modifica."
+        - label: "Ho verificato che il README sia visibile nel mio profilo."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 3 — da aggiungere come commento:**
+        ```text
+        Missione 3 completata
+        Nel README ho aggiunto: ...
+        ```
+
+  - type: checkboxes
+    id: missione_4
+    attributes:
+      label: "Missione 4 — Privacy Check"
+      description: "Rileggi docs/privacy-checklist.md prima di pubblicare."
+      options:
+        - label: "Non ho pubblicato indirizzo, telefono, password o codici 2FA."
+        - label: "Non ho pubblicato Recovery Code, file KeePassXC, token o API key."
+        - label: "Non ho pubblicato informazioni familiari o sensibili non necessarie."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 4 — da aggiungere come commento:**
+        ```text
+        Missione 4 completata
+        Privacy controllata: sì
+        ```
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Missione 5 — Entro nella community della classe
+
+        Apri **https://github.com/Torriani-AS2026/3BINF-github-hub** → **Discussions** → **👋 Presentiamoci tecnicamente**. Leggi almeno due presentazioni e pubblica la tua:
+
+        ```markdown
+        ### Ciao! 👋
+
+        Una mia passione è ...
+
+        Con la tecnologia ho già avuto esperienza con ...
+
+        Durante il triennio mi piacerebbe imparare ...
+
+        Una cosa che potrei insegnare ai miei compagni è ...
+
+        Un progetto che un giorno mi piacerebbe realizzare è ...
+
+        Il mio profilo GitHub:
+        https://github.com/tuo-username
+        ```
+
+  - type: checkboxes
+    id: missione_5
+    attributes:
+      label: "Missione 5 — Community della classe"
+      options:
+        - label: "Ho letto almeno due presentazioni nel Class Hub."
+        - label: "Ho pubblicato la mia presentazione nella Discussion corretta."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 5 — da aggiungere come commento:**
+        ```text
+        Missione 5 completata
+        Presentazione pubblicata nel Class Hub
+        ```
+
+  - type: checkboxes
+    id: missione_6
+    attributes:
+      label: "Missione 6 — Star"
+      description: "Apri https://github.com/Torriani-AS2026/3BINF-github-hub e seleziona Star. Follow è facoltativo e non è richiesto."
+      options:
+        - label: "Ho aggiunto una Star al Class Hub."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 6 — da aggiungere come commento:**
+        ```text
+        Missione 6 completata
+        Ho aggiunto una Star al Class Hub
+        ```
+
+  - type: markdown
+    attributes:
+      value: |
+        ### Missione 7 — Impariamo a chiedere aiuto
+
+        Nel nostro corso, questa è una convenzione didattica: **Issue** per attività concrete, problemi da correggere e miglioramenti; **Discussion** per domande, confronto, richieste di aiuto e proposte.
+
+        Usa sempre le **3P**: **PROBLEMA** (cosa volevi ottenere?), **PROVA** (che cosa è successo?), **PROCESSO** (che cosa hai già tentato?).
+
+        Le richieste di aiuto reali vanno in **https://github.com/Torriani-AS2026/3BINF-github-hub** → **Discussions** → **🆘 Aiuto LAB01**.
+
+  - type: checkboxes
+    id: missione_7
+    attributes:
+      label: "Missione 7 — Richiesta di aiuto"
+      options:
+        - label: "Ho preparato una richiesta con Problema, Prova e Processo."
+
+  - type: markdown
+    attributes:
+      value: |
+        **Evidenza Missione 7 — da aggiungere come commento:**
+        ```text
+        Missione 7 completata
+        PROBLEMA: ...
+        PROVA: ...
+        PROCESSO: ...
+        ```
+
+  - type: markdown
+    attributes:
+      value: |
+        ## LAB01 completato ✅
+
+        Quando tutte le missioni sono concluse, aggiungi **un ultimo commento**:
+
+        ```markdown
+        ## LAB01 completato ✅
+
+        **Il mio profilo GitHub:**
+        https://github.com/...
+
+        **Una cosa nuova che ho scoperto su GitHub:**
+        ...
+
+        **Una cosa che vorrei imparare durante il triennio:**
+        ...
+
+        **Un progetto che vorrei riuscire a mostrare nel mio portfolio entro la fine della terza:**
+        ...
+        ```
+
+        Attendi l'indicazione del docente prima di selezionare **Close issue**.
